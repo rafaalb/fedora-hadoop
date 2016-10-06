@@ -1,17 +1,17 @@
 
-Installation instructions (Fedora Commons 3.6.2, Hadoop Cloudera 5):
+Installation instructions (Fedora Commons 3.6.2, Cloudera Hadoop 5):
 ---------------------------------------------------------------
 Configuramos el archivo fedora.fcfg para utilizar el almacenamieto por defecto akubra-hdfs.
 
 Se encuentra en el folder $FEDORA_HOME/server/config/fedora.fcfg
 
-Al clonar el proyecto debemos instalarlo con maven con el siguiente comando:
+##Al clonar el proyecto debemos instalarlo con maven con el siguiente comando:
 
 mvn install
 
-#Nos genera un .jar llamado akubra-hdfs-0.0.1-SNAPSHOT.jar en el folder target
+Nos genera un .jar llamado akubra-hdfs-0.0.1-SNAPSHOT.jar en el folder target
 
-### Dependencies
+### Dependencias
 Copiar las dependencias de Hadoop al siguiente directorio de Fedora:
 $FEDORA_HOME/tomcat/webapps/fedora/WEB-INF/lib
 
